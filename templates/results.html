@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Evaluation Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 40px;
+        }
+
+        .result-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .result-card h3 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #0056b3;
+        }
+
+        .result-content {
+            background-color: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333;
+            white-space: pre-wrap;
+        }
+
+        .result-content strong {
+            color: #000;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            color: #007bff;
+            font-weight: 500;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .result-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Ranked Resume Evaluation Results</h2>
+        {% for eval in evaluations %}
+        <div class="result-card">
+            <h3>#{{ loop.index }} - {{ eval.name }} (Score: {{ eval.score }}/10)</h3>
+            <div class="result-content">{{ eval.result }}</div>
+        </div>
+        {% endfor %}
+
+        <a href="{{ url_for('index') }}">← Back to Upload</a>
+    </div>
+</body>
+</html>

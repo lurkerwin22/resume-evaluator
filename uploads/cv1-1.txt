@@ -1,0 +1,35 @@
+                                   Nicolas
+         DEVELOPPEUR FULLSTACK
+
+
+
+    PROFIL
+
+Expert en technologies de l'information, excelle en développement web full
+stack. Il possède une solide expérience en gestion de projets et architecture
+logicielle. Professionnel, adaptable et autonome, il s'intègre facilement aux
+équipes, respectant rigueur et délais.
+    DETAILS                                     EXP. PROFESSIONNELLE
+
+    10+ Années d'expérience               2022-2025
+                                          Développeur Fullstack C# Angular
+    Montréal
+
+    Hybride                               2019-2022
+                                          Développeur Fullstack C# Angular
+    Finance,     Industrie,
+    Télécom                              Seulement les deux dernières expériences sont
+                                         reportées ici.
+
+
+
+
+    COMPETENCES                                 EDUCATION
+
+                                          Maitrise en Génie Informatique
+    .Net
+    Angular
+    C#
+    Typescript
+    WPF/WCF
+

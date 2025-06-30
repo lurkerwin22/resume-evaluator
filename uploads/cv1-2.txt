@@ -1,0 +1,37 @@
+                                          Kevin
+ANALYSTE PROGRAMMEUR .NET C#
+
+
+
+       PROFIL
+
+   Analyste programmeur expérimenté, avec cinq ans d’expertise en développement
+   d’applications web et mobiles. Compétent en .NET, C#, ReactJS, NodeJS, Python,
+   VueJS et gestion de bases de données. A contribué à des projets complexes, allant
+   de la refonte d'applications anciennes à la création de nouvelles fonctionnalités.
+   Pratique en méthodologies Agile, déploiement et sécurité des systèmes.
+
+       DETAILS                                      EXP. PROFESSIONNELLE
+
+       5 Années d'expérience                  2023-2025
+                                              Analyste Programmeur Fullstack
+       Montréal
+
+       Hybride                                2019-2023
+                                              Analyste Programmeur Fullstack
+       Distribution, Education
+                                             Seulement les deux dernières expériences sont
+                                             reportées ici.
+
+
+
+
+       COMPETENCES                                  EDUCATION
+
+                                              Maitrise en Génie Informatique
+       .Net
+       C#
+       Javascript
+       SQL
+       ReactJS
+
